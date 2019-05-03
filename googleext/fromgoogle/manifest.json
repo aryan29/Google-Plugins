@@ -1,0 +1,17 @@
+{
+  "name": "Page Redder",
+  "description": "This plugin will change background color to green and font color to white",
+  "version": "2.0",
+  "permissions": [
+    "activeTab"
+  ],
+  "background": {
+    "scripts": ["background.js"],
+    "persistent": false
+  },
+  "browser_action": {
+    "default_title": "Make this page red",
+    "default_icon":"icon.png"
+  },
+  "manifest_version": 2
+}
