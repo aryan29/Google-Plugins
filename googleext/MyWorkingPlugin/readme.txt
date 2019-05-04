@@ -1,0 +1,1 @@
+Just select the text and click on Speak to speak any text on any website of google chrome you can select rate of speech just by clicking the small icon of plugin and entering rate b/w 0-2(It can be in decimal)
