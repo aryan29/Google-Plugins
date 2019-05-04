@@ -1,7 +1,7 @@
 {
 	"manifest_version":2,
 	"name":"Talking Google",
-	"description":"This plugin will speak whatever you will select",
+	"description":"This plugin will speak whatever you will select and morever you can change rate of speaking yourself(0-2)",
 	"version":"1.0",
 	"icons":{
       "128":"icon128.png",
@@ -9,8 +9,8 @@
       "16":"icon16.png"
 	},
 	"browser_action":{
-		"default_icon":"icon16.png"
-		
+		"default_icon":"icon16.png",
+		"default_popup":"popup.html"
 		
 	},
 	"permissions":[
@@ -19,6 +19,6 @@
 	],
 	"background":{
 		"scripts":["jquery-3.4.1.min.js","eventPage.js"],
-		"persisten":true
+		"persisten":false
 	}
 }
