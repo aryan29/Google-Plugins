@@ -1,0 +1,17 @@
+{
+	"manifest_version":2,
+	"name":"ViewCounter",
+	"description":"This will count the number of times you visited a webpage",
+	"version":"1.0",
+	"background":{
+		"scripts":["jquery-3.4.1.min.js","background.js"],
+		"persisten":true
+	},
+	"browser_action":{
+		"default_popup":"popup.html",
+		"default_icon":"icon.jpg"
+	},
+	"permissions":[
+		"storage","tabs"
+	]
+}
